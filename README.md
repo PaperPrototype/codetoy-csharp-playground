@@ -10,7 +10,9 @@ A fully featured C# playground with access to [CanvasRenderingContext2D](https:/
 
 ### Running
 
-Build the C# code
+You will need to install npm and node since this is a SvelteKit application.
+
+Build the C# code and run the app
 
 ```sh
 npm run build:dotnet # build C# code -> src/libs/dotnet
