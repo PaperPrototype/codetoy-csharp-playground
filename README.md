@@ -38,6 +38,7 @@ This is a sveltekit library project. See relevant docs for more info [Sveltekit 
 
 The documentation for getting a csharp compiler in the browser is very lacking but here is a non-comprehensive list of the resources I managed to get my hands on:
 
+- A simple nuget package to run C# code in a WASM-compatible browser https://github.com/unoplatform/Uno.Wasm.Bootstrap
 - Official .NET 7.0 announcement "Use .NET from any JavaScript app in .NET 7" https://devblogs.microsoft.com/dotnet/use-net-7-from-any-javascript-app-in-net-7/
 - A basic example setup that I used to get this repo working (linked in the official .NET 7.0 annoucement), does not include browser based C# compilation https://github.com/maraf/dotnet-wasm-react
 - A full working C# compiler for compiling C# code in the browser (big thanks to @wulferis) https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler
