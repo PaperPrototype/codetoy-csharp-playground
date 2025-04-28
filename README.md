@@ -38,9 +38,11 @@ This is a sveltekit library project. See relevant docs for more info [Sveltekit 
 
 The documentation for getting a csharp compiler in the browser is very lacking but here is a non-comprehensive list of the resources I managed to get my hands on:
 
-- https://github.com/maraf/dotnet-wasm-react (a basic example setup that I used to get this repo working, does not include browser based C# compilation)
-- https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler (big thanks to @wulferis)
+- Official .NET 7.0 announcement "Use .NET from any JavaScript app in .NET 7" https://devblogs.microsoft.com/dotnet/use-net-7-from-any-javascript-app-in-net-7/
+- A basic example setup that I used to get this repo working (linked in the official .NET 7.0 annoucement), does not include browser based C# compilation https://github.com/maraf/dotnet-wasm-react
+- big thanks to @wulferis https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler
 - https://github.com/JakeYallop/WasmSharp
+- Stack overflow post with links to wasm based raytracer https://stackoverflow.com/questions/68927533/c-sharp-wasm-without-blazor
 - A simple raytracer built with html canvas and C# https://github.com/dotnet/runtime/blob/0d20f9ad3e0fd58a510062757b34f76a3c122b25/src/mono/sample/wasm/simple-raytracer/main.js
 
 Some other useful tidbits:
@@ -54,3 +56,8 @@ Some other useful tidbits:
 - "Mono wasm features.md from official dotnet runtime repo" https://github.com/dotnet/runtime/blob/0d20f9ad3e0fd58a510062757b34f76a3c122b25/src/mono/wasm/features.md?plain=1#L158
 - "[WASM] Better double (F64) support in MonoPlatform.ts" https://github.com/dotnet/runtime/issues/65959 (Related to the ratracer example)
 - "WasmerSharp" https://github.com/migueldeicaza/WasmerSharp/blob/master/docfx/articles/intro.md/
+- "Build native WebAssembly components with .NET and C#—and deploy on wasmCloud" https://wasmcloud.com/blog/2024-09-05-build-wasm-components-dotnet-wasmcloud/
+
+Unrelated but useful:
+
+- Running Javascript through C# https://andrewlock.net/running-javascript-in-a-dotnet-app-with-javascriptengineswitcher/
