@@ -40,7 +40,7 @@ The documentation for getting a csharp compiler in the browser is very lacking b
 
 - Official .NET 7.0 announcement "Use .NET from any JavaScript app in .NET 7" https://devblogs.microsoft.com/dotnet/use-net-7-from-any-javascript-app-in-net-7/
 - A basic example setup that I used to get this repo working (linked in the official .NET 7.0 annoucement), does not include browser based C# compilation https://github.com/maraf/dotnet-wasm-react
-- big thanks to @wulferis https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler
+- A full working C# compiler for compiling C# code in the browser (big thanks to @wulferis) https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler
 - https://github.com/JakeYallop/WasmSharp
 - Stack overflow post with links to wasm based raytracer https://stackoverflow.com/questions/68927533/c-sharp-wasm-without-blazor
 - A simple raytracer built with html canvas and C# https://github.com/dotnet/runtime/blob/0d20f9ad3e0fd58a510062757b34f76a3c122b25/src/mono/sample/wasm/simple-raytracer/main.js
