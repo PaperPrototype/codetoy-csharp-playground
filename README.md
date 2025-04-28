@@ -33,3 +33,11 @@ Contains a .NET 7.0 project in the `dotnet` folder. When compiling the C# projec
 ### As a library
 
 This is a sveltekit library project. See relevant docs for more info [Sveltekit Packaging Docs](https://svelte.dev/docs/kit/packaging). Once it reaches maturity and has successfully achieved it's goal of making a full C# playground in the browser it can be published as an open source library on npm.
+
+### Resources
+
+The documentation for getting a csharp compiler in the browser is very lacking but here is a non-comprehensive list of the resources I managed to get my hands on:
+
+- https://github.com/maraf/dotnet-wasm-react (a basic example setup that I used to get this repo working, does not include browser based C# compilation)
+- https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler (big thanks to @wulferis)
+- https://github.com/JakeYallop/WasmSharp
