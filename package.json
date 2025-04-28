@@ -2,6 +2,8 @@
 	"name": "codetoy-csharp-playground",
 	"version": "0.0.1",
 	"scripts": {
+		"build:dotnet": "dotnet publish -c Release -p:RunAOTCompilation=true ./dotnet/dotnet.csproj",
+		"build:dotnet:debug": "dotnet publish -c Debug ./dotnet/dotnet.csproj",
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
 		"preview": "vite preview",
@@ -48,5 +50,8 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"@sveltejs/adapter-vercel": "^5.7.0"
 	}
 }

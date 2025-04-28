@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WasmMainJSPath>main.js</WasmMainJSPath>
+    <OutputType>Library</OutputType>
+    <WasmAppDir>../src/lib/dotnet</WasmAppDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <WasmExtraFilesToDeploy Include="main.js" />
+  </ItemGroup>
+</Project>
