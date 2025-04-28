@@ -46,7 +46,7 @@ The documentation for getting a csharp compiler in the browser is very lacking b
 - A full working C# compiler for compiling C# code in the browser (big thanks to @wulferis) https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler
 - Another full working C# compiler for compiling C# code in the browser using react https://github.com/JakeYallop/WasmSharp
 - Stack overflow post with links to wasm based raytracer https://stackoverflow.com/questions/68927533/c-sharp-wasm-without-blazor
-- A simple raytracer built with html canvas and C# https://github.com/dotnet/runtime/blob/0d20f9ad3e0fd58a510062757b34f76a3c122b25/src/mono/sample/wasm/simple-raytracer/main.js
+- A simple raytracer built with html canvas and C# https://github.com/dotnet/runtime/blob/0d20f9ad3e0fd58a510062757b34f76a3c122b25/src/mono/sample/wasm/simple-raytracer/Program.cs
 
 Some other useful tidbits:
 
