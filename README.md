@@ -41,3 +41,14 @@ The documentation for getting a csharp compiler in the browser is very lacking b
 - https://github.com/maraf/dotnet-wasm-react (a basic example setup that I used to get this repo working, does not include browser based C# compilation)
 - https://github.com/PaperPrototype/wulferis-wasm-csharp-compiler (big thanks to @wulferis)
 - https://github.com/JakeYallop/WasmSharp
+- A simple raytracer built with html canvas and C# https://github.com/dotnet/runtime/blob/0d20f9ad3e0fd58a510062757b34f76a3c122b25/src/mono/sample/wasm/simple-raytracer/main.js
+
+Some other useful tidbits:
+
+- "[browser] Support for OutputType Library" https://github.com/dotnet/runtime/issues/89577
+- "Smooth out support for running .NET from JS via WebAssembly" https://github.com/dotnet/runtime/issues/77191
+- "Configurable wwwroot for StaticWebAssets" https://github.com/dotnet/sdk/pull/34178
+- "Revisit hot reload browser refresh script injection" https://github.com/dotnet/aspnetcore/issues/45213
+- "Error loading blazor webassembly application with modified base path and using a reverse proxy" https://github.com/dotnet/aspnetcore/issues/52417
+- "Mono wasm features.md from official dotnet runtime repo" https://github.com/dotnet/runtime/blob/0d20f9ad3e0fd58a510062757b34f76a3c122b25/src/mono/wasm/features.md?plain=1#L158
+- "[WASM] Better double (F64) support in MonoPlatform.ts" https://github.com/dotnet/runtime/issues/65959 (Related to the ratracer example)
