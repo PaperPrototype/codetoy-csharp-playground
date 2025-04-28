@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.Runtime.InteropServices.JavaScript;
 using System.Threading.Tasks;
 
+// [assembly: System.Runtime.Versioning.SupportedOSPlatform("browser")]
+
 Console.WriteLine("Hello, Browser!");
 
 // if (args.Length == 1 && args[0] == "start")

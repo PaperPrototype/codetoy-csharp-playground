@@ -24,7 +24,7 @@ function add(a, b) {
 /* 
     await runMain(); -> TypeError: Cannot read properties of undefined (reading 'length') 
 
-    needs the mainAssemblyName and an empty array for the second argument
+    needs and array and the mainAssemblyName:
     https://github.com/dotnet/aspnetcore/blob/bd6f77dbcf17cf991ae5a36693ae3aa2e1a80278/src/Components/Web.JS/src/Platform/Mono/MonoPlatform.ts#L40
 */
 await runMain(config.mainAssemblyName, []); // will log "Hello, Browser!" to the console

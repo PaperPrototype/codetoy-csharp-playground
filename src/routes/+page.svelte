@@ -1,24 +1,13 @@
 <script lang="ts">
   import { browser } from "$app/environment";
+  import { add } from "$lib/dotnet/main.js";
 
-  let add: (a: number, b: number) => number;
   let a = $state(0);
   let b = $state(1);
   let output: number = $state(0);
 
-  async function loadAdd() {
-    if (browser) {
-      const module = await import("$lib/dotnet/main.js");
-      add = module.add;
-    }
-  }
-
-  loadAdd();
-
   async function addButton() {
-    if (add) {
-      output = add(a, b) as unknown as number;
-    }
+    output = add(a, b) as unknown as number;
   }
 </script>
 
