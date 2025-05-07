@@ -34,7 +34,7 @@ Contains a .NET 7.0 project in the `dotnet` folder. When compiling the C# projec
 
 ### As a library
 
-This is a sveltekit library project. See relevant docs for more info [Sveltekit Packaging Docs](https://svelte.dev/docs/kit/packaging). Once it reaches maturity and has successfully achieved it's goal of making a full C# playground in the browser it can be published as an open source library on npm.
+This is a sveltekit library project. See relevant docs for more info [Sveltekit Packaging Docs](https://svelte.dev/docs/kit/packaging). I'm hoping maybe I can turn this into an npm package at some point, or leave this as an open source project that people can use to test ideas in the browser with C# (AKA something like .NET Fiddle)
 
 ### Resources
 
